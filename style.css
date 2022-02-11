@@ -1,0 +1,296 @@
+@import url("https://fonts.google.com/specimen/Rubik");
+
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  text-transform: capitalize;
+  background: hsl(226, 43%, 10%);
+  color: white;
+}
+
+h3,
+h2 {
+  font-size: 2em;
+  font-weight: 200;
+}
+
+div.dashboard {
+  display: flex;
+
+  gap: 2%;
+  margin: 10% 8%;
+}
+
+.dashboard-mainmenu {
+  min-width: 15vw;
+  height: 370px;
+  background: hsl(235, 46%, 20%);
+  border-radius: 12px;
+}
+
+.personal-details {
+  width: 100%;
+  height: 70%;
+  background: hsl(246, 80%, 60%);
+  border-radius: 10px;
+}
+
+.personal-img {
+  padding: 1.2em;
+  width: 60px;
+  height: 60px;
+}
+
+img#jeremy {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+div.name {
+  margin: 0.8em 0 0.2em 1.2em;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  width: 30%;
+
+  font-weight: 200;
+  list-style: none;
+  margin: 0.8em 0 0 1.2em;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+li:active,
+:hover {
+  color: white;
+}
+
+.section-categories {
+  display: flex;
+  flex-direction: coumn;
+  flex-wrap: wrap;
+  gap: 2%;
+}
+
+section.categories {
+  width: 16.9vw;
+  height: 180px;
+
+  border-radius: 12px;
+  position: relative;
+}
+
+section.Work {
+  background-color: hsl(15, 100%, 70%);
+}
+section.Play {
+  background-color: hsl(195, 74%, 62%);
+}
+section.Study {
+  background-color: hsl(348, 100%, 68%);
+}
+section.Exercise {
+  background-color: hsl(145, 58%, 55%);
+}
+section.Social {
+  background-color: hsl(264, 64%, 52%);
+}
+section.Self-Care {
+  background-color: hsl(43, 84%, 65%);
+}
+
+img#img {
+  width: 25%;
+  height: 35%;
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+div.details {
+  width: 100%;
+  height: 80%;
+  background: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.details:hover {
+  z-index: 10;
+  background: rgb(57, 61, 124);
+}
+
+div.details-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.details-titlename {
+  font-size: 1.13em;
+  font-weight: 300;
+  margin: 1.2em 1.2em 0;
+}
+
+.fas {
+  color: rgba(255, 255, 255, 0.705);
+}
+
+.fas:hover {
+  color: white;
+  cursor: pointer;
+}
+span.details-icon {
+  margin: 1.2em 1.2em 0;
+}
+
+div.usage {
+  margin: 0.5em 1.2em 0;
+}
+
+.current-usage {
+  font-size: 2.8em;
+  margin-bottom: 0.1em;
+}
+
+#faint-text {
+  color: rgba(255, 255, 255, 0.705);
+}
+
+@media only screen and (min-width: 950px) {
+}
+
+@media only screen and (max-width: 949px) and (min-width: 825px) {
+  body {
+    font-size: 14px;
+  }
+
+  div.dashboard {
+    display: flex;
+    width: 70vw;
+    gap: 2%;
+    margin: 13% 12%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    text-transform: capitalize;
+    background: hsl(226, 43%, 10%);
+    color: white;
+  }
+
+  h3,
+  h2 {
+    font-size: 2em;
+    font-weight: 200;
+  }
+
+  div.dashboard {
+    display: flex;
+    flex-direction: column;
+
+    margin: 5% 7%;
+    width: 80vw;
+
+    column-gap: 4vh;
+  }
+
+  .dashboard-mainmenu {
+    min-width: 15vw;
+    height: 180px;
+    background: hsl(235, 46%, 20%);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+  }
+
+  .personal-details {
+    display: flex;
+
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background: hsl(246, 80%, 60%);
+    border-radius: 10px;
+  }
+
+  .personal-img {
+    padding: 1.2em;
+    width: 60px;
+    height: 60px;
+  }
+
+  img#jeremy {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+
+  div.name {
+    margin: 1.2em 0em 0em 0em;
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  li {
+    width: 30%;
+
+    font-weight: 200;
+    list-style: none;
+    margin: 2.1em;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.705);
+  }
+
+  li:active,
+  :hover {
+    color: white;
+  }
+
+  .section-categories {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+
+    gap: 2%;
+  }
+
+  section.categories {
+    width: 80vw;
+    height: 150px;
+
+    border-radius: 12px;
+    position: relative;
+
+    margin-bottom: 1.3rem;
+  }
+
+  div.usage {
+    margin: 2em 1.2em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .previous-usage {
+    margin-top: 1.1em;
+  }
+}
