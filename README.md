@@ -1,3 +1,6 @@
+# TIME-TRACKING-DASHBOARD-MAIN
+Solution to the challenge  brought by frontend mentor
+
 # Frontend Mentor - Time tracking dashboard solution
 
 This is a solution to the [Time tracking dashboard challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
@@ -24,6 +27,20 @@ Users should be able to:
 - Switch between viewing Daily, Weekly, and Monthly stats
 
 ### Screenshot
+![ACTIVE1](https://user-images.githubusercontent.com/89865808/153630687-1d73c0c7-0802-4e01-9b7f-3b551b74b6bd.PNG)
+![ACTIVE2](https://user-images.githubusercontent.com/89865808/153630702-e6e42340-d0bd-4bef-a155-d2d695a5c60e.PNG)
+
+![ACTIVE STATE3](https://user-images.githubusercontent.com/89865808/153630639-34d339fa-180f-4d32-94b0-d0968c360ea1.PNG)
+![2022-02-11 17_03_29-Document actii](https://user-images.githubusercontent.com/89865808/153630648-b3dd6220-c750-45b0-9906-679c83a85e3b.png)
+
+
+![2022-02-11 16_14_56-](https://user-images.githubusercontent.com/89865808/153625287-7cfae84b-285e-4a99-9d62-1e6c3dd03a25.png)
+![2022-02-11 16_17_21-Document](https://user-images.githubusercontent.com/89865808/153625291-97f2021a-0ff2-401f-9ee2-190b3dfa7905.png)
+
+![2022-02-11 16_22_57-Document](https://user-images.githubusercontent.com/89865808/153625398-8742e779-d390-4330-9480-1ecc68babf1a.png)
+
+
+
 
 ### Links
 
